@@ -1,0 +1,17 @@
+@import "../base/vars.css";
+@import "../base/base.css";
+@import "../base/utils.css";
+
+/* modules */
+@import "../modules/button.css";
+@import "../modules/header.css";
+@import "../modules/navigation.css";
+@import "../modules/intro.css";
+@import "../modules/benefits.css";
+@import "../modules/pets.css";
+@import "../modules/match.css";
+@import "../modules/support.css";
+@import "../modules/advantages.css";
+@import "../modules/review.css";
+
+@import "../modules/footer.css";

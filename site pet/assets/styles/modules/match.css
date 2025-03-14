@@ -1,0 +1,122 @@
+.match__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 225px;
+}
+
+@media screen and (max-width: 1140.98px) {
+    .match__container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+}
+.match__col-left {
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+.match__col-img {
+    max-width: 360px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: var(--rounded-base);
+}
+@media screen and (max-width: 1140.98px) {
+    .match__col-left {
+        max-width: 500px;
+    }
+    .match__col-img {
+        max-width: 100%;
+    }
+}
+.match__grid {
+    position: absolute;
+    padding: 24px 24px 32px;
+    top: 219px;
+    right: -121px;
+    background-color: var(--background);
+    border-radius: var(--rounded-base);
+}
+@media screen and (max-width: 768.98px) {
+    .match__grid {
+        right: -20px;
+    }
+}
+.match__grid-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--primary-foreground);
+}
+.match__grid-list {
+    display: grid;
+    row-gap: 4px;
+}
+
+.match__grid-list-item {
+    display: flex;
+    gap: 10px;
+    padding-block: 11px;
+}
+.match__grid-img img {
+    --size: 36px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    object-fit: cover;
+}
+.match__grid-text {
+    display: grid;
+    width: 100%;
+    row-gap: 4px;
+}
+.match__grid-item-name {
+    color: var(--primary-foreground);
+    font-weight: 600;
+}
+.match__grid-item-text {
+    font-size: 14px;
+    line-height: 100%;
+}
+
+
+.match__col-right {
+    max-width: 460px;
+}
+@media screen and (max-width: 1140.98px) {
+    .match__col-right {
+        max-width: unset;
+    }
+}
+
+.match-description{
+    padding-block: 10px 24px;
+}
+.match__col-comment {
+    display: grid;
+    row-gap: 20px;
+    border-radius: var(--rounded-base);
+    background-color: #FFF7F0;
+    padding: 24px;
+    max-width: 460px;
+}
+
+.match__col-comment-text {
+    line-height: 32px;
+}
+
+.match__col-comment-name {
+    color: var(--primary-foreground);
+    font-weight: 600;
+}
+@media screen and (max-width: 1140.98px) {
+    .match__col-left {
+        order: 2;
+    }
+    .match__col-right {
+        order: 1;
+    }
+}

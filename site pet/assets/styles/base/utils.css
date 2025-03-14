@@ -1,0 +1,49 @@
+.container {
+    padding: 100px 150px;
+}
+@media screen and (max-width: 768.98px) {
+    .container {
+        padding-inline: 50px ;
+    }
+}
+
+@media screen and (max-width: 1140.98px) {
+    .container {
+        padding-inline: 100px;
+    }
+}
+
+
+.title-2xl {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 92px;
+    color: var(--secondary);
+}
+
+.title-xl h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 68px;
+    color: var(--primary-foreground);
+}
+
+.title-lg {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--primary-foreground);
+}
+
+.title-md {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    padding-bottom:24px ;
+}
+
+.tag {
+    font-weight: 700;
+    color: var(--primary);
+}
+
