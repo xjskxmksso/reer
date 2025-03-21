@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dbeefa;
+    font-family: 'Poppins', sans-serif;
+}
+.accordion{
+    max-width: 33rem;
+    width: 100%;
+    background: #FFF;
+    margin:0 5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.accordion .accordion__content{
+    margin:10px 0;
+    border-radius: 5px;
+    background-color: #FFF6ED;
+    border-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.accordion__content.is-open{
+    padding-bottom: 10px;
+}
+.accordion__content header{
+    display:flex;
+    min-height: 60px;
+    padding: 0 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    transition:all 0.2s linear;
+}
+.accordion__content.is-open header{
+    min-height: 35px;
+}
+.accordion__content-title{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#000000;
+}
+.accordion__content-description{
+    height:0;
+    font-size: 13px;
+    color:#000000;
+    font-weight: 400;
+    padding: 0 15px;
+}
+.accordion__content-beige {
+    background-color: #FBF1E6 !important;
+    border-left: 6px solid #DFB288 !important;
+}
+
+.accordion__content-purple {
+    background-color: #E9E8F8 !important;
+    border-left: 6px solid #7679C9 !important;
+}
+
+.accordion__content-pink {
+    background-color: #FAE8EC !important;
+    border-left: 6px solid #D37F93 !important;
+}
+
+.accordion__content-blue {
+    background-color: #E7F4FB !important;
+    border-left: 6px solid #84BED9 !important;
+}
+.title-blue {
+    color: #5B8AFF !important;
+}
+.layout {
+    line-height: 110px;
+    font-size: 52px;
+    color: #212E51 !important;
+}
+
+.title {
+    text-align: left;
+}
+
+.awesome {
+    color: #000033;
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.accordion-ui {
+    color: #6699ff;
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1.2;
+}
