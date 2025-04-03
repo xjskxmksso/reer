@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/mobile-menu.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="body--nature">
+<div class="page">
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                        width="60"
+                        height="60">
+                    <polygon points="15,0 22,12 8,12" fill="green" />
+                    <polygon points="15,5 25,15 5,15" fill="darkgreen" />
+                    <polygon points="15,10 28,22 2,22" fill="lightgreen" />
+                    <rect x="13" y="22" width="4" height="6" fill="saddlebrown" />
+                </svg>
+            </a>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about" class="navigation__link"><i class="fa fa-user"></i> Кто я</a></li>
+                    <li class="navigation__item"><a href="#skills" class="navigation__link"><i class="fa fa-star"></i>Мои навыки</a></li>
+                    <li class="navigation__item"><a href="#portfolio" class="navigation__link"><i class="fa fa-image"></i> Мое портфолио</a></li>
+                    <li class="navigation__item"><a href="#education" class="navigation__link"><i class="fa fa-graduation-cap"></i>Мое обучение</a></li>
+                    <li class="navigation__item"><a href="#plans" class="navigation__link"><i class="fa fa-bullseye"></i>Мои планы на будущее</a></li>
+                    <li class="navigation__item"><a href="#contact" class="navigation__link"><i class="fa fa-envelope"></i> Свяжитесь со мной</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-button">☰</button>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <nav class="mobile-navigation">
+            <ul class="mobile-navigation__list">
+                <li class="mobile-navigation__item"><a href="#about" class="mobile-navigation__link"><i class="fa fa-user"></i>Кто я</a></li>
+                <li class="mobile-navigation__item"><a href="#skills" class="mobile-navigation__link"><i class="fa fa-star"></i>Мои навыки</a></li>
+                <li class="mobile-navigation__item"><a href="#portfolio" class="mobile-navigation__link"><i class="fa fa-image"></i> Мое портфолио</a></li>
+                <li class="mobile-navigation__item"><a href="#education" class="mobile-navigation__link"><i class="fa fa-graduation-cap"></i>Мое обучение</a></li>
+                <li class="mobile-navigation__item"><a href="#plans" class="mobile-navigation__link"><i class="fa fa-bullseye"></i>Мои планы на будущее</a></li>
+                <li class="mobile-navigation__item"><a href="#contact" class="mobile-navigation__link"><i class="fa fa-envelope"></i> Свяжитесь со мной</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main class="main">
+        <section id="about" class="section">
+            <h2 class="section__title"><i class="fa fa-user"></i>Кто я:</h2>
+            <p class="section__content">Привет, меня зовут Михаил. Я изучаю языки программирования</p>
+        </section>
+        <section id="skills" class="section">
+            <h2 class="section__title"><i class="fa fa-star"></i>Мои навыки:</h2>
+            <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">JAVASCRIPT</li>
+                <li class="skills__item">PHP</li>
+            </ul>
+        </section>
+        <section id="portfolio" class="section">
+            <h2 class="section__title"><i class="fa fa-image"></i> Мое портфолио:</h2>
+            <div class="portfolio__grid">
+                <div class="portfolio__item">
+                    <p class="portfolio__description">Первая работа: Сайт для спортивного зала</p>
+                </div>
+                <div class="portfolio__item">
+                    <p class="portfolio__description">Вторая работа: Сайт для магазина домашних животных</p>
+                </div>
+                <div class="portfolio__item">
+                    <p class="portfolio__description">Третья работа: Accordion Using JavaScript</p>
+                </div>
+        </section>
+        <section id="education" class="section">
+            <h2 class="section__title"><i class="fa fa-graduation-cap"></i>Мой путь обучения:</h2>
+            <div class="timeline">
+                <div class="timeline__item">
+                    <div class="timeline__date">2012-2021</div>
+                    <div class="timeline__content">
+                        <h3>Школа №129</h3>
+                        <p>Получение аттестата и базовых знаний</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__date">2023-2025</div>
+                    <div class="timeline__content">
+                        <h3>Колледж</h3>
+                        <p>Изучение PHP, HTML, JAVASCRIPT, CSS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="plans" class="section">
+            <h2 class="section__title"><i class="fa fa-bullseye"></i>Мои планы на будущее:</h2>
+            <p class="section__content">Сделать свой собственный проект</p>
+        </section>
+        <section id="contact" class="section">
+            <h2 class="section__title"><i class="fa fa-envelope"></i>Свяжитесь со мной:</h2>
+            <form class="contact-form">
+                <div class="contact-form__group">
+                    <label for="name" class="contact-form__label">Имя:</label>
+                    <input type="text" id="name" name="name" class="contact-form__input">
+                </div>
+                <div class="contact-form__group"><label for="email" class="contact-form__label">Email:</label>
+                    <input type="email" id="email" name="email" class="contact-form__input">
+                </div>
+                <div class="contact-form__group">
+                    <label for="message" class="contact-form__label">Сообщение:</label>
+                    <textarea id="message" name="message" class="contact-form__textarea"></textarea>
+                </div>
+                <button type="submit" class="contact-form__button">Отправить</button>
+            </form>
+        </section>
+        <section class="section">
+            <div class="accordion">
+                <div class="accordion__item">
+                    <div class="accordion__header">Какие языки программирования я знаю</div>
+                    <div class="accordion__content">php, html, css, javascript</div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header">Как меня зовут</div>
+                    <div class="accordion__content">Меня зовут Михаил</div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header">Мой возраст</div>
+                    <div class="accordion__content">20 лет</div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__header">Мое хобби</div>
+                    <div class="accordion__content">Рисование</div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 30 30"
+                     width="60"
+                     height="60">
+                    <polygon points="15,0 22,12 8,12" fill="green" />
+                    <polygon points="15,5 25,15 5,15" fill="darkgreen" />
+                    <polygon points="15,10 28,22 2,22" fill="lightgreen" />
+                    <rect x="13" y="22" width="4" height="6" fill="saddlebrown" />
+                </svg>
+            </div>
+            <nav class="footer-navigation">
+                <ul class="footer-navigation__list">
+                    <li class="footer-navigation__item"><a href="#about" class="footer-navigation__link">Кто я</a></li>
+                    <li class="footer-navigation__item"><a href="#skills" class="footer-navigation__link">Мои навыки</a></li>
+                    <li class="footer-navigation__item"><a href="#portfolio" class="footer-navigation__link">Мое портфолио</a></li>
+                    <li class="footer-navigation__item"><a href="#education" class="footer-navigation__link">Мое обучение</a></li>
+                    <li class="footer-navigation__item"><a href="#plans" class="footer-navigation__link">Планы на будущее</a></li>
+                    <li class="footer-navigation__item"><a href="#contact" class="footer-navigation__link">Свяжитесь со мной</a></li>
+                </ul>
+            </nav>
+            <div class="footer__contact">Контакты <a href="mailto:example@example.com">mihailfedorenko@gmail.com</a></div>
+        </div>
+    </footer>
+</div>
+<script src="vendors/script.js"></script>
+<script src="vendors/accordion.js"></script>
+<script src="vendors/mobile-menu.js"></script>
+</body>
+</html>
